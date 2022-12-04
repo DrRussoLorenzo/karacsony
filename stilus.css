@@ -11,7 +11,11 @@ nav {
     list-style-type: none;
     overflow: hidden;
     padding: 5px;
+    position: fixed;
     border-radius: 16px;
+    border: 2px solid black;
+    width: 99%;
+    opacity: 0.9;
   }
   
   nav li {
@@ -30,13 +34,14 @@ nav {
     text-decoration: none;
     width: 1000%;
     border-radius: 20px;
+    border: 2px solid black;
   }
   
   nav li:hover {
     background-color: #03045e;
   }
 
-  @media screen and (max-width: 555px) {
+  @media screen and (max-width: 570px) {
     nav li {
         float: none;
         width: 100%;
@@ -50,4 +55,35 @@ nav {
   
   .active {
     background-color: #03045e;
+  }
+
+  h1 {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+
+  #bal {
+    background-color: #0077b6;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding: 15px;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    width: 70%;
+    border-radius: 20px;
+    border: 2px solid black;
+  } 
+
+  #jobb > img {
+    display: inline-block;
+    flex-direction: column;
+    float: right;
+    margin-top: 90px;
+    margin-right: 3px;
+    width: 29%;
+    border-radius: 20px;
+    border: 2px solid black;
   }
